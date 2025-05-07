@@ -1,6 +1,6 @@
 # Hospital Management System — Spring Boot & React
 
-A full-stack hospital management web application for managing patients, admissions, and medical examinations with modular operations and cost tracking. Built using **Spring Boot**, **React**, and **PostgreSQL**, this system modernizes a classic file-based Java design by introducing REST APIs and a dynamic frontend interface.
+A full-stack hospital management web application for managing patients, admissions, and medical examinations with modular operations and cost tracking. Built using **Spring Boot**, **React**, and **PostgreSQL**.
 
 ---
 

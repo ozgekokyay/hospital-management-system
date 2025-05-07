@@ -37,16 +37,16 @@ A full-stack hospital management web application for managing patients, admissio
   Secure and cleanly structured endpoints for all operations.
 
 ## API Endpoints
-GET    /api/patients
-POST   /api/patients
-DELETE /api/patients/{id}
+- `GET    /api/patients` — List all patients  
+- `POST   /api/patients` — Add a new patient  
+- `DELETE /api/patients/{id}` — Delete a patient by ID  
+- `POST   /api/admissions` — Create a new admission  
+- `POST   /api/admissions/{id}/examinations` — Add an examination to an admission  
+- `GET    /api/admissions/{id}/cost` — Get total cost of all examinations in an admission  
 
-POST   /api/admissions
-POST   /api/admissions/{id}/examinations
-GET    /api/admissions/{id}/cost
 
 ## Software Design Highlights
-Decorator Pattern: Applied to dynamically chain examination operations and cost calculations.
-DAO Layer Abstraction: Clean separation of data persistence logic.
-Layered Architecture: Controller → Service → Repository pattern.
-Validation & Error Handling: Robust request validation & standardized responses.
+- Decorator Pattern: Applied to dynamically chain examination operations and cost calculations.
+- DAO Layer Abstraction: Clean separation of data persistence logic.
+- Layered Architecture: Controller → Service → Repository pattern.
+- Validation & Error Handling: Robust request validation & standardized responses.
